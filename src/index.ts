@@ -1,3 +1,4 @@
-import  Shuttler  from './Shuttler';
+import  ShuttlerFx, {IShuttlerModel}  from './ShuttlerFramework';
 
-export default Shuttler;
+export default ShuttlerFx;
+export {IShuttlerModel}

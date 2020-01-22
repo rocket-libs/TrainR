@@ -1,15 +1,15 @@
 {
   "name": "shuttler-framework",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "author": {
     "name": "Rocket Libraries",
     "email": "rocket-libs@outlook.com",
-    "url": "https://github.com/rocket-libs/ShuttlerJs"
+    "url": "https://github.com/rocket-libs/ShuttlerFramework"
   },
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "repository": {
-    "url": "https://github.com/rocket-libs/ShuttlerJs",
+    "url": "https://github.com/rocket-libs/ShuttlerFramework",
     "type": "git"
   },
   "license": "MIT",
@@ -33,7 +33,7 @@
     "rollup-plugin-typescript2": "^0.25.2",
     "ts-node": "^8.5.2",
     "tslib": "^1.10.0",
-    "typescript": "^3.7.2"
+    "typescript": "^3.7.5"
   },
   "peerDependencies": {
     "react": "^16.8.5",
@@ -53,5 +53,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "shuttlerjs": "^1.1.4"
+  }
 }
