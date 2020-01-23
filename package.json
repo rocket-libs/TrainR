@@ -1,6 +1,6 @@
 {
   "name": "shuttler-framework",
-  "version": "0.0.4",
+  "version": "0.0.15",
   "author": {
     "name": "Rocket Libraries",
     "email": "rocket-libs@outlook.com",
@@ -16,8 +16,6 @@
   "types": "dist/index.d.ts",
   "devDependencies": {
     "@babel/plugin-proposal-optional-chaining": "^7.7.5",
-    "@types/react": "^16.9.13",
-    "@types/react-dom": "^16.9.4",
     "@types/styled-components": "^4.4.0",
     "@typescript-eslint/eslint-plugin": "^2.9.0",
     "@typescript-eslint/parser": "^2.9.0",
@@ -35,10 +33,7 @@
     "tslib": "^1.10.0",
     "typescript": "^3.7.5"
   },
-  "peerDependencies": {
-    "react": "^16.8.5",
-    "react-dom": "^16.8.5"
-  },
+  "peerDependencies": {},
   "scripts": {
     "build": "rollup -c",
     "build-watch": "rollup -c -w",
@@ -55,6 +50,7 @@
     "dist"
   ],
   "dependencies": {
-    "shuttlerjs": "^1.1.4"
+    "shuttlerjs": "^1.1.9",
+    "uuid": "^3.4.0"
   }
 }
