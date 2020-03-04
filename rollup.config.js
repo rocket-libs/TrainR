@@ -14,7 +14,7 @@ export default [
       { file: pkg.main, format: "cjs" },
       { file: pkg.module, format: "esm" },
       {
-        file: "example/src/shuttlerJS/index.js",
+        file: "example/src/trainR/index.js",
         format: "es",
         banner: "/* eslint-disable */"
       }

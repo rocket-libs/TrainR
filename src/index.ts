@@ -1,4 +1,4 @@
-import  ShuttlerFx, {IShuttlerModel,ShuttlerState}  from './ShuttlerFramework';
+import  TrainR, {ITrainRContext,TrainRState}  from './TrainR';
 
-export default ShuttlerFx;
-export {IShuttlerModel,ShuttlerState}
+export default TrainR;
+export {ITrainRContext,TrainRState}

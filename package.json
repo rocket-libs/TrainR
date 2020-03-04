@@ -1,15 +1,15 @@
 {
-  "name": "shuttler-framework",
-  "version": "0.0.15",
+  "name": "trainr-fx",
+  "version": "0.0.18",
   "author": {
     "name": "Rocket Libraries",
     "email": "rocket-libs@outlook.com",
-    "url": "https://github.com/rocket-libs/ShuttlerFramework"
+    "url": "https://github.com/rocket-libs/TrainR"
   },
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "repository": {
-    "url": "https://github.com/rocket-libs/ShuttlerFramework",
+    "url": "https://github.com/rocket-libs/TrainR",
     "type": "git"
   },
   "license": "MIT",
